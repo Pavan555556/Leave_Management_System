@@ -16,7 +16,7 @@ var express = require("express"),
 
 var moment = require("moment");
 
-var url =process.env.DATABASEURL|| "mongodb+srv://Pavan4554:Pavan4554@cluster0.9lclhkc.mongodb.net/DP_DB?retryWrites=true&w=majority";
+var url =process.env.DATABASEURL|| "mongodb+srv://mongo987676:mongo00000@cluster0.lyzmjqg.mongodb.net/";
 mongoose
   .connect(url, {
     useNewUrlParser: true,
